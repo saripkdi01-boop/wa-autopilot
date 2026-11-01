@@ -1,0 +1,11 @@
+name = "wa-autopilot"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wa-autopilot-db"
+database_id = "GANTI_DENGAN_DATABASE_ID_LO"
+
+[vars]
+WHATSAPP_VERIFY_TOKEN = "token_rahasia_lo_pilih_sendiri"

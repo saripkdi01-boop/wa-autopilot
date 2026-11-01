@@ -1,0 +1,29 @@
+# Build artifacts
+android/app/build/
+android/build/
+android/.gradle/
+*.log
+
+# Gradle
+.gradle/
+local.properties
+
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android SDK (jangan di-commit)
+android-sdk/
+
+# Keystore (jangan pernah di-commit)
+*.jks
+*.keystore

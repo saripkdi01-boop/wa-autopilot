@@ -1,0 +1,18 @@
+{
+  "name": "wa-autopilot-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "db:init": "wrangler d1 execute wa-autopilot-db --file=schema.sql --remote",
+    "db:shell": "wrangler d1 execute wa-autopilot-db --remote --command"
+  },
+  "dependencies": {
+    "hono": "^4.7.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250717.0",
+    "wrangler": "^4.0.0"
+  }
+}
